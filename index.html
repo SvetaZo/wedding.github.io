@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__top">
+          <img class="logo-hearts" src="images/hearts.png" alt="" />
+        </div>
+        <h1 class="title">Вадим и Светлана</h1>
+        <img
+          width="2920"
+          height="3660"
+          class="header__we"
+          src="images/We.jpg"
+          alt=""
+          fetchPriority="high"
+        />
+      </header>
+      <main class="main">
+        <section class="calendar">
+          <h2 class="data">Январь <br />2024</h2>
+          <img
+            width="1873"
+            height="1337"
+            class="calendar-image"
+            src="images/calendar.png"
+            alt=""
+          />
+        </section>
+        <section class="timer">
+          <span class="time"></span>
+          <span class="day"></span>
+          <span class="time"></span>
+          <span class="day"></span>
+          <span class="time"></span>
+          <span class="day"></span>
+          <span class="time"></span>
+          <span class="day day--seconds"></span>
+        </section>
+
+        <section class="text">
+          <div class="text__top">
+            <img class="logo-couple" src="images/wedding-couple.png" alt="" />
+          </div>
+          <p class="text__title">Дорогие наши близкие люди!</p>
+          <div class="rings">
+            <img class="logo-rings" src="images/logo-rings.png" alt="" />
+          </div>
+          <p class="text__main">
+            Мы будем рады разделить с вами наш незабываемый день бракосочетания.
+            Всех будем ждать 27.01.2024г. в 11:00 в ЗАГСе по адресу г.Сальск,
+            ул.Ленина 25. Необходимо прибыть за 10-15 минут до начала.
+          </p>
+          <div class="celebrate">
+            <img
+              class="logo-celebrate"
+              src="images/logo-restaurant.png"
+              alt=""
+            />
+          </div>
+          <p class="text__main">
+            После церемонии бракосочетания к 12:00 отправляемся в ресторан
+            "Ривьера" по адресу ул. Набережная 1. Там будет ждать нас фотограф,
+            который сделает нам памятные фото. Он будет работать 1 час, поэтому
+            просим всех не разбегаться, мы хотим чтобы все попали в кадр. После
+            фотоссесии нас будет ждать праздничный стол, за которым мы все ближе
+            познакомимся и станем ещё чуточку ближе. <br />
+            Всех любим и ждём с хорошим настроением. Ваши Вадим и Света.
+          </p>
+        </section>
+      </main>
+    </div>
+    <script async src="main.js"></script>
+  </body>
+
+  <footer>
+    <canvas id="Canvas"></canvas>
+    <script src="app.js"></script>
+  </footer>
+</html>
