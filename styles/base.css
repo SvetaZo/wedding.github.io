@@ -47,7 +47,7 @@ h6 {
 
 @font-face {
   font-family: "Caveat";
-  src: url(fonts/Caveat/static/Caveat-Bold.ttf);
+  src: url(/fonts/Caveat/static/Caveat-Bold.ttf);
   font-weight: 700;
 }
 

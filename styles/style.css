@@ -41,15 +41,16 @@
 .calendar-image {
   border-radius: 15px;
   border: 10px solid rgb(203 219 235);
+  max-width: 500px;
 }
 
 .calendar {
   display: flex;
   justify-content: center;
   margin: 15px 0;
+  gap: 20px;
 }
 .data {
-  padding: 0px 20px;
   font-family: var(--secondary-font);
   font-size: 35px;
 }
