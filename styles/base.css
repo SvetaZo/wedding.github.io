@@ -66,3 +66,14 @@ body {
   background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
   background-repeat: no-repeat;
 }
+
+img {
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: 15px 0;
+}
