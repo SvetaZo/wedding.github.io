@@ -44,6 +44,10 @@
   max-width: 500px;
 }
 
+.calendar-image img {
+  margin: 0;
+}
+
 .calendar {
   display: flex;
   align-items: center;
