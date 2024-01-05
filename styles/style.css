@@ -1,50 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-}
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-.container {
-  max-width: 1220px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-
-body {
-  background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
-  background-repeat: no-repeat;
-}
-
 .header__top {
   padding-top: 30px;
 }
@@ -57,7 +10,7 @@ body {
 
 .title {
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: var(--secondary-font);
   font-size: clamp(30px, 4vw + 10px, 70px);
 }
 
@@ -66,6 +19,23 @@ body {
   height: 15%;
   margin: 0 auto;
   border-radius: 15px;
+}
+
+.about {
+  text-align: center;
+  font-size: 25px;
+}
+.about__info {
+  font-weight: 400;
+}
+.about__links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-style: normal;
+  text-underline-position: under;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .calendar-image {
@@ -86,13 +56,13 @@ body {
 .data {
   margin: auto 70px;
   padding: 0px 20px;
-  font-family: "Caveat", cursive;
+  font-family: var(--secondary-font);
   font-size: 35px;
 }
 
 .timer {
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: var(--secondary-font);
   font-size: 35px;
 }
 .time {
@@ -113,7 +83,7 @@ body {
 }
 .text__title {
   text-align: center;
-  font-family: "Caveat", cursive;
+  font-family: var(--secondary-font);
   font-size: 35px;
 }
 .logo-rings {
@@ -122,16 +92,40 @@ body {
   height: 40px;
 }
 .text__main {
+  margin-bottom: 10px;
   text-align: center;
-  font-family: "Sofia Sans Condensed", sans-serif;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 24px;
 }
 
 .logo-celebrate {
   margin: 0 auto;
   width: 40px;
   height: 40px;
+}
+
+canvas {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+footer {
+  position: relative;
+}
+footer::after {
+  content: "Happy Wedding";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Times New Roman";
+  white-space: nowrap;
+  opacity: 0.75;
 }
 
 @media (max-width: 954px) {
@@ -157,13 +151,4 @@ body {
   .header__we {
     width: 100%;
   }
-}
-
-canvas {
-  /* position: fixed;
-  top: 0;
-  left: 0; */
-  width: 100%;
-  height: 100%;
-  /* z-index: -1; */
 }

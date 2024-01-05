@@ -1,0 +1,68 @@
+:root {
+  --secondary-font: "Caveat", cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url(/fonts/Caveat/static/Caveat-Bold.ttf);
+  font-weight: 700;
+}
+
+/* @font-face{
+   font-family: "Caveat fallback";
+    font-size: 21px;
+    line-height: 1.99;
+    letter-spacing: -0.38px;
+    font-weight: 700;
+} */
+
+body {
+  font-family: "Times New Roman", cursive;
+  font-style: italic;
+  font-size: 1.25rem;
+  background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+  background-repeat: no-repeat;
+}

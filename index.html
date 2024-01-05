@@ -4,18 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/png" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="scripts/base.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,200&display=swap"
-      rel="stylesheet"
-    />
+   -->
   </head>
   <body>
     <div class="container">
@@ -30,10 +27,20 @@
           class="header__we"
           src="images/We.jpg"
           alt=""
-          fetchPriority="high"
         />
       </header>
       <main class="main">
+        <section class="about">
+          <p class="about__info">
+            Если вы хотите узнать о каждом из нас чуточку больше, то переходите
+            по следующим ссылкам.
+          </p>
+          <div class="about__links">
+            <a href="aboutVadim.html">О Вадиме</a>
+            <a href="aboutSveta.html">О Светлане</a>
+            <a href="aboutUs.html">О нас</a>
+          </div>
+        </section>
         <section class="calendar">
           <h2 class="data">Январь <br />2024</h2>
           <img
@@ -87,11 +94,11 @@
         </section>
       </main>
     </div>
-    <script async src="main.js"></script>
+    <script src="scripts/timer.js"></script>
   </body>
 
   <footer>
     <canvas id="Canvas"></canvas>
-    <script src="app.js"></script>
+    <script defer src="scripts/firework.js"></script>
   </footer>
 </html>
