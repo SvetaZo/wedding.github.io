@@ -79,12 +79,6 @@ br {
 }
 
 @media (prefers-color-scheme: dark) {
-  .calendar-image {
-    display: none;
-  }
-  .calendar h2 br {
-    display: none;
-  }
   img {
     filter: brightness(0.8) contrast(1.2);
   }
