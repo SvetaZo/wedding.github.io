@@ -39,22 +39,16 @@
 }
 
 .calendar-image {
-  margin: 0px -20px;
-  width: 30%;
-  height: 30%;
   border-radius: 15px;
   border: 10px solid rgb(203 219 235);
 }
 
 .calendar {
   display: flex;
-  max-width: 1220px;
-  padding: 0px 10px;
-  margin: 15px auto;
   justify-content: center;
+  margin: 15px 0;
 }
 .data {
-  margin: auto 70px;
   padding: 0px 20px;
   font-family: var(--secondary-font);
   font-size: 35px;
@@ -137,13 +131,6 @@ footer::after {
 @media (max-width: 800px) {
   .header__we {
     width: 50%;
-  }
-  .calendar-image {
-    margin: 10px 80px 0px -53px;
-    width: 67%;
-    height: 40%;
-    border-radius: 15px;
-    border: 10px solid rgb(203 219 235);
   }
 }
 
