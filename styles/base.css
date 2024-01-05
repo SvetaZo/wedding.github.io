@@ -80,11 +80,10 @@ br {
 
 @media (prefers-color-scheme: dark) {
   .calendar-image {
-    background: linear-gradient(
-      180deg,
-      #cadbeb 0%,
-      rgba(235, 235, 235, 0) 100%
-    );
+    display: none;
+  }
+  .calendar h2 br {
+    display: none;
   }
   img {
     filter: brightness(0.8) contrast(1.2);
